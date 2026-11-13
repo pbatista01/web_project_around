@@ -1,41 +1,41 @@
-# Around the U.S.
+# Alrededor de los EE. UU.
 
-## Descripción del proyecto
+## 📖 Descripción
 
-Around the U.S. es una página web interactiva desarrollada como parte del programa de Desarrollo Web de TripleTen. La estructura HTML y los estilos CSS fueron proporcionados previamente. El objetivo principal del proyecto fue implementar la funcionalidad de la página utilizando JavaScript, permitiendo que los diferentes elementos interactivos respondieran a las acciones del usuario. Durante el desarrollo se trabajó con la manipulación del DOM, manejo de eventos, formularios y funciones para transformar una interfaz estática en una experiencia web funcional.
+Aplicación web interactiva desarrollada como parte del programa de Desarrollo Web de TripleTen.
+
+El proyecto muestra un perfil de usuario y una galería de tarjetas con imágenes de lugares. Permite editar la información del perfil, agregar nuevas tarjetas, dar "me gusta", eliminar tarjetas y ver cada imagen ampliada en una ventana emergente. Los formularios cuentan con validación en tiempo real, y los popups se pueden cerrar con el botón de cierre, la tecla Esc o un clic en el área sombreada.
+
+En esta etapa, el proyecto fue refactorizado de JavaScript a TypeScript, aplicando programación orientada a objetos. El código se organizó en clases con responsabilidades independientes (`Card`, `Section`, `FormValidator`, `Popup`, `PopupWithImage`, `PopupWithForm` y `UserInfo`), usando herencia, encapsulamiento con métodos públicos y privados, acoplamiento débil mediante callbacks, e interfaces y tipos para asegurar el manejo correcto de los datos y los elementos del DOM.
+
+## 🌐 Demo
+
+[Ver proyecto en GitHub Pages] https://pbatista01.github.io/web_project_around/
+
+## Vista previa
+
+![Project Preview](./images/project-preview.png)
 
 ## Tecnologías utilizadas
 
 - HTML5
 - CSS3
-- JavaScript
+- TypeScript
+- JavaScript (ES6+)
+- Programación orientada a objetos (POO)
+- Módulos ES6
 - Manipulación del DOM
-- Manejo de eventos
-- Formularios y validación
+- Validación de formularios
+- Metodología BEM
+- Responsive Design
 - Git
 - GitHub
 
-## Funcionalidades implementadas
-
-- Edición del nombre y descripción del perfil.
-- Apertura y cierre de ventanas emergentes (popups).
-- Creación de nuevas tarjetas mediante un formulario.
-- Eliminación de tarjetas.
-- Funcionalidad de "Me gusta" en las tarjetas.
-- Visualización ampliada de las fotografías.
-- Validación de formularios.
-- Actualización dinámica del contenido de la página mediante JavaScript.
-
-El proyecto permitió aplicar conceptos fundamentales de JavaScript, como funciones, manipulación de elementos del DOM, manejo de eventos y gestión de formularios.
-
 ## Planes de mejora
 
-- Conectar la página a una API para almacenar y recuperar los datos de los usuarios y las tarjetas.
-- Implementar autenticación y registro de usuarios.
-- Añadir la posibilidad de cargar fotografías desde el dispositivo.
-- Mejorar las animaciones y transiciones de los elementos interactivos.
-- Implementar un sistema de confirmación antes de eliminar una tarjeta.
-- Añadir nuevas funcionalidades para mejorar la interacción entre usuarios.
-
-## Github page
-https://pbatista01.github.io/web_project_around_es/
+- Conectar la aplicación a una API para guardar el perfil y las tarjetas en un servidor.
+- Mantener el estado de los "me gusta" al recargar la página.
+- Agregar un popup de confirmación antes de eliminar una tarjeta.
+- Permitir cambiar la foto de perfil del usuario.
+- Mostrar indicadores de carga mientras se envían los formularios.
+- Incorporar pruebas automatizadas para las clases principales.
