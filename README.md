@@ -10,7 +10,7 @@ En esta etapa, el proyecto fue refactorizado de JavaScript a TypeScript, aplican
 
 ## 🌐 Demo
 
-[Ver proyecto en GitHub Pages] https://pbatista01.github.io/web_project_around/
+[Ver proyecto en GitHub Pages] https://pbatista01.github.io/web_project_around/public/
 
 ## Vista previa
 
